@@ -11,9 +11,9 @@ module "sandbox_account_01" {
     # ManagedOrganizationalUnit = "sandbox"
     # Syntax for nested OU
     ManagedOrganizationalUnit = "sandbox (ou-w51q-cald7awo)"
-    SSOUserEmail     = "demoaft22@gmail.com"
-    SSOUserFirstName = "AFT"
-    SSOUserLastName  = "Demo"
+    SSOUserEmail              = "demoaft22@gmail.com"
+    SSOUserFirstName          = "AFT"
+    SSOUserLastName           = "Demo"
   }
 
   account_tags = {
@@ -30,3 +30,4 @@ module "sandbox_account_01" {
   }
 
   account_customizations_name = "sandbox-customizations"
+}
